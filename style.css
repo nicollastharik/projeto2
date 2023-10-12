@@ -1,0 +1,278 @@
+   
+
+    
+    
+    .button1 {
+    
+    padding: 10px 20px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+   }
+   
+   .button1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+   
+   .button1:hover {
+    color: #e8e8e8;
+   }
+   
+   .button1:hover::before {
+    width: 100%;
+   }
+
+
+   .button2 {
+    
+    padding: 10px 20px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+   }
+   
+   .button2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+   
+   .button2:hover {
+    color: #e8e8e8;
+   }
+   
+   .button2:hover::before {
+    width: 100%;
+   }
+
+   .button3 {
+    
+    padding: 10px 20px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+   }
+   
+   .button3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+   
+   .button3:hover {
+    color: #e8e8e8;
+   }
+   
+   .button3:hover::before {
+    width: 100%;
+   }
+
+
+
+
+
+
+   .posição1{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+   }
+
+
+   
+
+   .posição2{
+    position: absolute;
+    top: 20%;
+    left: 65%;
+   }
+   
+   .posição3{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+   }
+   .posição4{
+    position: absolute;
+    top: 20%;
+    left: 78%;
+   }
+
+   .posição5{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    height: 180px;
+    width: 130px;
+   }
+
+<!--carrosel-->
+
+   .carousel-container {
+    width: 300px;
+    overflow: hidden;
+    position: absolute;
+   
+  }
+  
+  .carousel-slide {
+    width: 300px;
+    float: left;
+  }
+  
+  .carousel-button {
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+.box1{
+  border-radius: 42px;
+  background: #e0e0e0;
+  box-shadow:  14px 14px 26px #9d9d9d,
+               -14px -14px 26px #ffffff;
+  height: 500px;
+  width: 400px;
+}
+
+.editavel {
+          
+  outline: none;
+  width: 30%;
+}
+
+.imagem1{
+  height: 400px;
+  width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+   @media screen and (max-width: 768px) {
+    .button1 {
+        padding: 10px 20px;
+        border: unset;
+        border-radius: 15px;
+        color: #212121;
+        z-index: 1;
+        background: #e8e8e8;
+        position: relative;
+        font-weight: 1000;
+        font-size: 17px;
+        -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        transition: all 250ms;
+        overflow: hidden;
+       }
+       
+       button::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 0;
+        border-radius: 15px;
+        background-color: #212121;
+        z-index: -1;
+        -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        transition: all 250ms
+       }
+       
+       button:hover {
+        color: #e8e8e8;
+       }
+       
+       button:hover::before {
+        width: 100%;
+       }
+       .posição1{
+        position: absolute;
+        top: 20%;
+        left: 5%;
+       }
+  
+       .posição2{
+        position: absolute;
+        top: 20%;
+        left: 36%;
+       }
+       
+       .posição3{
+        position: absolute;
+        top: 30%;
+        left: 10%;
+       }    
+
+       .posição4{
+        position: absolute;
+        top:20% ;
+        left: 60%;
+       }
+
+   }
